@@ -1,6 +1,6 @@
 html{
     font-size: 20px;
-    /*background: url(images/background.jpg) bottom center; */
+    background: url(images/background.jpg) bottom center;
     background-size: cover;
 } 
 
@@ -27,13 +27,13 @@ body,html{
     transition:  0.05s ease;
     width: 10rem;
     text-align: center;
-    color: blue;
+    color: yellow;
     text-shadow: 0 0 .9rem red;  
 }
 
 .playing{
     transform: scale(1.1);
-    border-color: #ffc606;
+    border-color: red;
     box-shadow: 0 0 1rem #ffc606;
 }
 
